@@ -1,6 +1,7 @@
 {
   "name": "root",
   "private": true,
+  "packageManager": "yarn@pnpm@10.11.0",
   "scripts": {
     "bootstrap": "npm run setup:dev",
     "build-ee": "nx run-many --target=build-ee --all",
